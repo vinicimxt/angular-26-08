@@ -1,0 +1,115 @@
+/* Estiliza o corpo e a página para garantir que o fundo cubra toda a área */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background: rgb(180, 59, 194);
+  background: linear-gradient(90deg, rgba(180, 59, 194, 0.23) 0%, rgba(62, 62, 203, 0.56) 54%, rgba(61, 195, 210, 1) 100%);
+  min-height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+body {
+  background: rgb(180, 59, 194);
+  background: linear-gradient(90deg, rgba(181, 59, 194, 0.137) 0%, rgba(62, 62, 203, 0.301) 54%, rgba(61, 195, 210, 0.295) 100%);
+}
+
+.componente1, .componente2, .componente3, .componente4, .componente5 {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(243, 239, 239, 0.445);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px; 
+}
+
+.componente1 h2 {
+  color: #a84949;
+}
+
+.componente2 h2 {
+  color: #0919f1;
+}
+
+.componente2 ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.componente2 li {
+  color: #333;
+}
+
+.componente3 h2 {
+  color: #fffb0a;
+}
+
+.componente3 button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #ff9800;
+  color: white;
+  cursor: pointer;
+}
+
+.componente3 button:hover {
+  background-color: #e68900;
+}
+
+.componente4 h2 {
+  color: #ff0909;
+}
+
+.componente4 input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.componente4 button {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.componente4 button:hover {
+  background-color: #45a049;
+}
+
+.componente5 h2 {
+  color: #ff5722;
+}
+
+.componente5 button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #ff5722;
+  color: white;
+  cursor: pointer;
+}
+
+.componente5 button:hover {
+  background-color: #e64a19;
+}
